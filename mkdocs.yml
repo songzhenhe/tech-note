@@ -1,1 +1,15 @@
 site_name: My Docs
+repo_url: https://github.com/songzhenhe/python-note
+site_author: 'songzhenhe
+copyright: '2020, songzhenhe''
+theme: 
+    name: 'readthedocs'
+    # name: 'mkdocs'
+    # name: 'material'
+markdown_extensions:
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+
+extra_javascript:
+    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
