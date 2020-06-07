@@ -3,9 +3,9 @@ repo_url: https://github.com/songzhenhe/python-note
 site_author: 'songzhenhe'
 copyright: '2020, songzhenhe'
 theme: 
-    name: 'readthedocs'
+    # name: 'readthedocs'
     # name: 'mkdocs'
-    # name: 'material'
+    name: 'material'
 markdown_extensions:
     - toc:
         permalink: true
