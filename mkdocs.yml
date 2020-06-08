@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Python for Engineer and Scientist
 repo_url: https://github.com/songzhenhe/python-note
 site_author: 'songzhenhe'
 copyright: '2020, songzhenhe'
@@ -6,6 +6,7 @@ theme:
     name: readthedocs
     # name: mkdocs
     # name: material
+    
 markdown_extensions:
     - toc:
         permalink: true
@@ -13,3 +14,7 @@ markdown_extensions:
 
 extra_javascript:
     - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+    
+nav:
+    - Home: index.md
+    - Introduction: indroduction.md
