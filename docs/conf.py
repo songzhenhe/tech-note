@@ -44,7 +44,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
 #    'matplotlib.sphinxext.plot_directive',
-    'sphinxcontrib.bibtex',
+#    'sphinxcontrib.bibtex',
 ]
 
 # Configuration of extensions
