@@ -14,6 +14,9 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+#import pkg_resources
+import sphinx_rtd_theme
+
 # -- Project information -----------------------------------------------------
 
 project = 'Python for Engineers and Scientist'
@@ -23,7 +26,7 @@ author = 'Zhenhe Song'
 # The full version, including alpha/beta/rc tags
 release = '0.1'
 
-import sphinx_rtd_theme
+
 
 # -- General configuration ---------------------------------------------
 
@@ -40,7 +43,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
-    'matplotlib.sphinxext.plot_directive',
+#    'matplotlib.sphinxext.plot_directive',
     'sphinxcontrib.bibtex',
 ]
 
@@ -71,8 +74,6 @@ source_suffix = ['.rst', '.md']
 
 # The master toctree document.
 master_doc = 'index'
-
-
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -114,6 +115,12 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built
 # documents.
 #keep_warnings = False
+
+# If true, figures, tables and code-blocks are automatically numbered if they have a caption
+numfig = True
+
+numfig_format = {'figure': 'Figure %s', 'table': 'Table %s',
+                 'code-block': 'Listing %s', 'section': 'Section %s'}
 
 
 # -- Options for HTML output -------------------------------------------------
