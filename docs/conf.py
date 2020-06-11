@@ -74,11 +74,7 @@ templates_path = ['_templates']
 #}
 
 # The suffix of source filenames.
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.txt': 'markdown',
-    '.md': 'markdown',
-}
+source_suffix = ['.rst', '.md']
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -282,7 +278,7 @@ man_pages = [('index', 'python', u'pygmm Documentation', [u'Zhenhe Song'], 1)]
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'pygmm', u'Python for Engineer and Scientist', u'Albert Kottke', 'pygmm',
+    ('index', 'python', u'Python for Engineer and Scientist', u'Zhenhe Song', 'python',
      'One line description of project.', 'Miscellaneous'),
 ]
 
