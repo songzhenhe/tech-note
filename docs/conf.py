@@ -17,6 +17,8 @@
 #import pkg_resources
 import sphinx_rtd_theme
 import recommonmark
+from recommonmark.transform import AutoStructify
+
 # for Sphinx-1.3 
 # from recommonmark.parser import CommonMarkParser
 
