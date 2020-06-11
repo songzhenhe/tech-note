@@ -16,6 +16,9 @@
 
 #import pkg_resources
 import sphinx_rtd_theme
+import recommonmark
+# for Sphinx-1.3 
+# from recommonmark.parser import CommonMarkParser
 
 # -- Project information -----------------------------------------------------
 
@@ -43,6 +46,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
+    'recommonmark',
 #    'matplotlib.sphinxext.plot_directive',
 #    'sphinxcontrib.bibtex',
 ]
@@ -61,13 +65,18 @@ intersphinx_mappings = {
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+# for Sphinx-1.3 
 # Use recommonmark for Markdown files
-source_parsers = {
-    '.md': 'recommonmark.parser.CommonMarkParser',
-}
+#source_parsers = {
+#    '.md': 'recommonmark.parser.CommonMarkParser',
+#}
 
 # The suffix of source filenames.
-source_suffix = ['.rst', '.md']
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
