@@ -6,12 +6,10 @@
 Welcome to Python for Engineers and Scientist's documentation!
 ==============================================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+* [Introduction](intro.md)
+* [Getting Started](getting_started/getstarted.md)
 
-intro.md
-getting_started/getstarted.md
+Let's start
 
 
 Indices and tables
