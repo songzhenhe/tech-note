@@ -76,7 +76,7 @@ templates_path = ['_templates']
 # Use recommonmark for Markdown files
 source_parsers = {
     '.md': 'recommonmark.parser.CommonMarkParser',
-#}
+}
 
 # The suffix of source filenames.
 source_suffix = {
