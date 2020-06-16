@@ -10,6 +10,11 @@ Convert document formats
 Metacharacters
 --------------
 
+.. csv-table:: Metacharacters 
+   :file: re-meta.csv
+   :header-rows: 1
+
+
 +------+---------------------------------------------------------+-----+
 | C    | Description                                             | E   |
 | hara |                                                         | xam |
