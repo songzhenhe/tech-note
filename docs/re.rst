@@ -36,7 +36,7 @@ Metacharacters
 
 The findall() function returns a list containing all matches.
 
-::.. code:: python
+.. code:: python
 
    import re
 
