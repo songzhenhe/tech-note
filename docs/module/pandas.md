@@ -1,10 +1,10 @@
-Pandas
-=============
+# Pandas
+
 This document is for tips using pandas
 
 
-pd.read_csv
-----------------
+## pd.read_csv
+
 
 To keep the first row 0 (as the header) and then skip everything else up to row 10, you can write:
 ```

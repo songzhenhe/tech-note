@@ -1,10 +1,10 @@
-Pandoc
-=============
+# Pandoc
+
 Convert document formats
 
 
-Convert
-----------------
+## Convert
+ 
 
 readme.md to readme.rst.
 ```

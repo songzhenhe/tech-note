@@ -1,3 +1,6 @@
+
+## typing
+
  [`typing`](https://docs.python.org/3/library/typing.html#module-typing "typing: Support for type hints.
 ```
 def greeting(name: str) -> str:

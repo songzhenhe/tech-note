@@ -1,9 +1,9 @@
-RegEx
-=============
+#RegEx
+
 Convert document formats
 
 
-Metacharacters
+##Metacharacters
 ----------------
 
 | Character | Description                                                                  | Example        |
