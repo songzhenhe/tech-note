@@ -7,47 +7,37 @@ their usefulness.
 
 The ones which we will talk about are:
 
--   `defaultdict`
--   `OrderedDict`
+
 -   `Counter`
--   `deque`
 -   `namedtuple`
 
 
-
-
-`Counter`
+##Counter
 
 
 Counter allows us to count the occurrences of a particular item. For
 instance it can be used to count the number of individual favourite
 colours:
 
-``` {.python}
+``` python
 from collections import Counter
 
 colours = (
-    ('Yasoob', 'Yellow'),
-    ('Ali', 'Blue'),
-    ('Arham', 'Green'),
-    ('Ali', 'Black'),
-    ('Yasoob', 'Red'),
-    ('Ahmed', 'Silver'),
+    ('Jack', 'Yellow'),
+    ('Bob', 'Blue'),
+    ('Alice', 'Green'),
+    ('Simon', 'Black'),
+    ('Bob', 'Red'),
+    ('Alice', 'Silver'),
 )
 
 favs = Counter(name for name, colour in colours)
 print(favs)
-# Output: Counter({
-#    'Yasoob': 2,
-#    'Ali': 2,
-#    'Arham': 1,
-#    'Ahmed': 1
-# })
 ```
 
 We can also count the most common lines in a file using it. For example:
 
-``` {.python}
+``` python
 with open('filename', 'rb') as f:
     line_count = Counter(f)
 print(line_count)
@@ -66,7 +56,7 @@ major one is that unlike lists, **you can not reassign an item in a
 tuple**. In order to access the value in a tuple you use integer indexes
 like:
 
-``` {.python}
+``` python
 man = ('Ali', 30)
 print(man[0])
 # Output: Ali
@@ -78,7 +68,7 @@ integer indexes for accessing members of a tuple. You can think of
 namedtuples like dictionaries but unlike dictionaries they are
 immutable.
 
-``` {.python}
+``` python
 from collections import namedtuple
 
 Animal = namedtuple('Animal', 'name age type')
