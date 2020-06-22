@@ -9,7 +9,7 @@ return 'Hello ' + name
 ```
 In the function `greeting`, the argument `name` is expected to be of type [`str`] and the return type [`str`] Subtypes are accepted as arguments
 
-`typing.``Union`(https://docs.python.org/3/library/typing.html#typing.Union "Permalink to this definition")
+[`typing.Union`](https://docs.python.org/3/library/typing.html#typing.Union "Permalink to this definition")
 
-Union type;  `Union[X,  Y]`  means either X or Y
+`Union[X,  Y]`  means either X or Y
 
