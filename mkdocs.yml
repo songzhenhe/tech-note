@@ -17,13 +17,16 @@ extra_javascript:
     
 nav:
     - Home: index.md
-    - RegEx: basic/re.md
-    - Typing: intermediate/typing.md
-    - Collections: intermediate/collections.md
-    - Lambdas: intermediate/lambdas.md
-    - Enumerate: intermediate/enumerate.md
-    - Decorators: intermediate/decorators.md
-    - Generators: intermediate/generators.md
-    - Pandas: module/pandas.md
-    - Pandoc: module/pandoc.md
-    - Geospatial: module/geo.md
+    - Basic: 
+      - RegEx: basic/re.md
+    - Intermediate: 
+      - Typing: intermediate/typing.md
+      - Collections: intermediate/collections.md
+      - Lambdas: intermediate/lambdas.md
+      - Enumerate: intermediate/enumerate.md
+      - Decorators: intermediate/decorators.md
+      - Generators: intermediate/generators.md
+    - Module: 
+      - Pandas: module/pandas.md
+      - Pandoc: module/pandoc.md
+      - Geospatial: module/geo.md

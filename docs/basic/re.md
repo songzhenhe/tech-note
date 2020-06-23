@@ -21,7 +21,7 @@ Convert document formats
 
 
 The findall() function returns a list containing all matches.
-```
+``` python
 import re
 
 txt = "The rain in Spain"
