@@ -1,54 +1,15 @@
 # Decorators
 
-
-Decorators are a significant part of Python. In simple words: they are
-functions which modify the functionality of other functions. They help
-to make our code shorter and more Pythonic. Most beginners do not know
-where to use them so I am going to share some areas where decorators can
-make your code more concise.
-
-First, let's discuss how to write your own decorator.
-
-It is perhaps one of the most difficult concepts to grasp. We will take
-it one step at a time so that you can fully understand it.
-
-##Everything in Python is an object:
+Decorators dynamically alter the functionality of a function, method, 
+or class without having to directly use subclasses or change the source code of 
+the function being decorated.
 
 
-First of all let\'s understand functions in Python:
+## Defining functions within functions:
 
-``` {.python}
-def hi(name="yasoob"):
-    return "hi " + name
+In Python we can define functions inside other functions:
 
-print(hi())
-# output: 'hi yasoob'
-
-# We can even assign a function to a variable like
-greet = hi
-# We are not using parentheses here because we are not calling the function hi
-# instead we are just putting it into the greet variable. Let's try to run this
-
-print(greet())
-# output: 'hi yasoob'
-
-# Let's see what happens if we delete the old hi function!
-del hi
-print(hi())
-#outputs: NameError
-
-print(greet())
-#outputs: 'hi yasoob'
-```
-
-##Defining functions within functions:
-
-
-So those are the basics when it comes to functions. Let\'s take your
-knowledge one step further. In Python we can define functions inside
-other functions:
-
-``` {.python}
+``` python
 def hi(name="yasoob"):
     print("now you are inside the hi() function")
 

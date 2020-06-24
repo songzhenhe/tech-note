@@ -1,10 +1,11 @@
-#RegEx
+# RegEx
 
-Convert document formats
+[`RegEx`](https://docs.python.org/3/howto/regex.html) : regular expressions 
+in Python with the [`re`](https://docs.python.org/3/library/re.html#module-re "re: Regular expression operations.") module
 
 
-##Metacharacters
-----------------
+## Metacharacters
+
 
 | Character | Description                                                                  | Example        |
 |-----------|------------------------------------------------------------------------------|----------------|
@@ -20,7 +21,8 @@ Convert document formats
 | ()        | Capture and group                                                            |                |
 
 
-The findall() function returns a list containing all matches.
+The findall() function returns a list containing all matches.  
+
 ``` python
 import re
 

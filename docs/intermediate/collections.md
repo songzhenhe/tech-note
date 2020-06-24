@@ -1,18 +1,13 @@
 # Collections
 
-
 Python ships with a module that contains a number of container data
-types called Collections. We will talk about a few of them and discuss
-their usefulness.
-
-The ones which we will talk about are:
-
+types called Collections:
 
 -   `Counter`
 -   `namedtuple`
 
 
-##Counter
+## Counter
 
 
 Counter allows us to count the occurrences of a particular item. For
@@ -43,10 +38,7 @@ with open('filename', 'rb') as f:
 print(line_count)
 ```
 
-
-
-
-##`namedtuple`
+## namedtuple
 
 
 You might already be acquainted with tuples. A tuple is basically a

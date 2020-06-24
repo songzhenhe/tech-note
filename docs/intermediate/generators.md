@@ -16,7 +16,7 @@ namely:
 All of these parts are linked to each other. We will discuss them one by
 one and later talk about generators.
 
-##Iterable
+## Iterable
 
 
 An `iterable` is any object in Python which has an `__iter__` or a
@@ -33,7 +33,7 @@ An iterator is any object in Python which has a `next` (Python2) or
 `__next__` method defined. That\'s it. That\'s an iterator. Now let\'s
 understand **iteration**.
 
-##Iteration
+## Iteration
 
 
 In simple words it is the process of taking an item from something e.g a
@@ -41,7 +41,7 @@ list. When we use a loop to loop over something it is called iteration.
 It is the name given to the process itself. Now as we have a basic
 understanding of these terms let\'s understand **generators**.
 
-##Generators {#generators-1}
+## Generators {#generators-1}
 
 
 Generators are iterators, but you can only iterate over them once. It's
