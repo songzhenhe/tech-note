@@ -18,7 +18,10 @@ extra_javascript:
 nav:
     - Home: index.md
     - Basic: 
+      - Data Type: basic/datatype.md
       - RegEx: basic/re.md
+      - File: basic/file.md
+      - Buildin Functions: basic/buildin.md
     - Intermediate: 
       - Typing: intermediate/typing.md
       - Collections: intermediate/collections.md
@@ -26,7 +29,10 @@ nav:
       - Enumerate: intermediate/enumerate.md
       - Decorators: intermediate/decorators.md
       - Generators: intermediate/generators.md
+      - Advanced File: intermediate/file.md
+      - Comprehensions: intermediate/comprehensions.md
     - Module: 
       - Pandas: module/pandas.md
       - Pandoc: module/pandoc.md
+      - Mkdocs: module/mkdocs.md
       - Geospatial: module/geo.md
