@@ -1,19 +1,17 @@
 # Lambdas
 
 Lambdas are one line functions. They are also known as anonymous
-functions in some other languages. You might want to use lambdas when
-you don't want to use a function twice in a program. They are just like
-normal functions and even behave like them.
+functions in some other languages.
 
 **Blueprint**
 
-``` {.python}
+``` python
 lambda argument: manipulate(argument)
 ```
 
 **Example**
 
-``` {.python}
+``` python
 add = lambda x, y: x + y
 
 print(add(3, 5))
@@ -25,7 +23,7 @@ they are used in the wild:
 
 **List sorting**
 
-``` {.python}
+``` python
 a = [(1, 2), (4, 1), (9, 10), (13, -3)]
 a.sort(key=lambda x: x[1])
 
@@ -35,7 +33,7 @@ print(a)
 
 **Parallel sorting of lists**
 
-``` {.python}
+``` python
 data = zip(list1, list2)
 data = sorted(data)
 list1, list2 = map(lambda t: list(t), zip(*data))

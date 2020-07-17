@@ -74,20 +74,20 @@ print(perry.name)
 ```
 
 You can now see that we can access members of a tuple just by their name
-using a `.`. Let\'s dissect it a little more. A named tuple has two
+using a `.`. Let's dissect it a little more. A named tuple has two
 required arguments. They are the tuple name and the tuple field\_names.
-In the above example our tuple name was \'Animal\' and the tuple
-field\_names were \'name\', \'age\' and \'type\'. Namedtuple makes your
+In the above example our tuple name was 'Animal' and the tuple
+field_names were 'name', 'age' and 'type'. Namedtuple makes your
 tuples **self-document**. You can easily understand what is going on by
 having a quick glance at your code. And as you are not bound to use
 integer indexes to access members of a tuple, it makes it more easy to
-maintain your code. Moreover, as **\`namedtuple\` instances do not have
+maintain your code. Moreover, as **`namedtuple` instances do not have
 per-instance dictionaries**, they are lightweight and require no more
 memory than regular tuples. This makes them faster than dictionaries.
 However, do remember that as with tuples, **attributes in namedtuples
 are immutable**. It means that this would not work:
 
-``` {.python}
+``` python
 from collections import namedtuple
 
 Animal = namedtuple('Animal', 'name age type')
@@ -103,7 +103,7 @@ You should use named tuples to make your code self-documenting. **They
 are backwards compatible with normal tuples**. It means that you can use
 integer indexes with namedtuples as well:
 
-``` {.python}
+``` python
 from collections import namedtuple
 
 Animal = namedtuple('Animal', 'name age type')
@@ -115,7 +115,7 @@ print(perry[0])
 Last but not the least, you can convert a namedtuple to a dictionary.
 Like this:
 
-``` {.python}
+``` python
 from collections import namedtuple
 
 Animal = namedtuple('Animal', 'name age type')

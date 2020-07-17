@@ -4,6 +4,17 @@
 in Python with the [`re`](https://docs.python.org/3/library/re.html#module-re "re: Regular expression operations.") module
 
 
+## RegEx Functions
+
+| Function | Description                                                       |
+|----------|-------------------------------------------------------------------|
+| findall  | Returns a list containing all matches                             |
+| search   | Returns a Match object if there is a match anywhere in the string |
+| split    | Returns a list where the string has been split at each match      |
+| sub      | Replaces one or many matches with a string                        |
+
+
+
 ## Metacharacters
 
 
