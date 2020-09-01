@@ -66,3 +66,9 @@ f.close()
 * "a" - Append - will create a file if the specified file does not exist
 * "w" - Write - will create a file if the specified file does not exist
 
+
+
+
+
+seek(0) : Move the read/write location to the beginning of the file.
+
