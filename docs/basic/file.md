@@ -72,3 +72,15 @@ f.close()
 
 seek(0) : Move the read/write location to the beginning of the file.
 
+
+
+os.path.basename() and os.path.dirname()?
+Both functions use the os.path.split(path) function to split the pathname path into a pair; (head, tail).
+
+The os.path.dirname(path) function returns the head of the path.
+
+E.g.: The dirname of '/foo/bar/item' is '/foo/bar'.
+
+The os.path.basename(path) function returns the tail of the path.
+
+E.g.: The basename of '/foo/bar/item' returns 'item'
