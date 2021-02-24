@@ -1,5 +1,6 @@
-site_name: Python Notes
-repo_url: https://github.com/songzhenhe/python-note
+site_name: Technical Notes
+repo_url: https://github.com/songzhenhe/tech-note
+edit_uri: 
 site_author: 'songzhenhe'
 copyright: '2020, songzhenhe'
 theme: 
@@ -17,22 +18,7 @@ extra_javascript:
     
 nav:
     - Home: index.md
-    - Basic: 
-      - Data Type: basic/datatype.md
-      - RegEx: basic/re.md
-      - File: basic/file.md
-      - Buildin Functions: basic/buildin.md
-    - Intermediate: 
-      - Typing: intermediate/typing.md
-      - Collections: intermediate/collections.md
-      - Lambdas: intermediate/lambdas.md
-      - Enumerate: intermediate/enumerate.md
-      - Decorators: intermediate/decorators.md
-      - Generators: intermediate/generators.md
-      - Advanced File: intermediate/file.md
-      - Comprehensions: intermediate/comprehensions.md
-    - Module: 
-      - Pandas: module/pandas.md
-      - Pandoc: module/pandoc.md
-      - Mkdocs: module/mkdocs.md
-      - Geospatial: module/geo.md
+    - Python: 
+      - Basic: basic.md
+      - intermediate: intermediate.md
+      - Module: module.md
