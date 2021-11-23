@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "63aa2c7d68397a82",
+    "type": "split",
+    "children": [
+      {
+        "id": "f35eff0c3d58106e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/excel.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c381cc2bb8050b60",
+    "type": "split",
+    "children": [
+      {
+        "id": "20d293bdd1ad6c53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d3318b77911d21a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "038f7624cc094b30",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "74c31dced674c68c",
+    "type": "split",
+    "children": [
+      {
+        "id": "de60f1d132971bea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8e10da3bc0adcd7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/excel.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f35eff0c3d58106e",
+  "lastOpenFiles": [
+    "docs/excel.md",
+    "docs/basic.md"
+  ]
+}
